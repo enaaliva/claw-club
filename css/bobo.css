@@ -1,0 +1,77 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+
+  background-image: url(../assets/images/background/ALL-BG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bobo-page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.bobo-content {
+  width: 100%;
+  height: 100%;
+}
+.home-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;
+}
+.home-btn img {
+  width: 130px;
+  display: block;
+}
+.bobo-bg-page {
+  width: 70%;
+  height: 76%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-image: url(../assets/images/Bobo-page/BOBO-BG\ PAGE.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 15px;
+  outline: 2px solid var(--pink);
+}
+.pin {
+  position: absolute0;
+  width: 60px;
+  height: 60px;
+  background: red;
+  top: 20px;
+  left: 20px;
+}
+.standing-bobo {
+  position: absolute;
+  width: 220px;
+  height: 400px;
+  background: blue;
+  bottom: 0;
+  left: -160px;
+}
+.keychain {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background: green;
+  top: 20px;
+  left: 420px;
+}
+.sticker1 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background: purple;
+  top: 20px;
+  right: 30px;
+}

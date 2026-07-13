@@ -1,25 +1,3 @@
-@font-face {
-  font-family: "Halimum";
-  src: url("../assets/fonts/halimun.regular.otf");
-}
-:root {
-  --cream: #f2e6b1;
-  --pink: #dd6590;
-  --black: #000000;
-  --heading-font: "Halimum";
-  --body-font: "Crafty Girls", cursive;
-}
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-/* global styles*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   height: 100vh;
   overflow: hidden;
