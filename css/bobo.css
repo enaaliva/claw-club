@@ -1,8 +1,20 @@
+@font-face {
+  font-family: "Halimum";
+  src: url("../assets/fonts/halimun.regular.otf");
+}
+:root {
+  --cream: #f2e6b1;
+  --pink: #dd6590;
+  --black: #000000;
+  --heading-font: "Halimum";
+  --body-font: "Crafty Girls", cursive;
+}
+/* Background styles */
 body {
   height: 100vh;
   overflow: hidden;
 
-  background-image: url(../assets/images/background/ALL-BG.jpg);
+  background-image: url("../assets/images/background/bg-all-pink.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,31 +23,47 @@ body {
 .bobo-page {
   width: 100%;
   height: 100%;
+
   position: relative;
 }
 .bobo-content {
   width: 100%;
   height: 100%;
+
+  position: relative;
 }
+/* button styling*/
 .home-btn {
   position: absolute;
   bottom: 30px;
   right: 30px;
+
   z-index: 100;
 }
 .home-btn img {
   width: 130px;
   display: block;
+  transition: all 0.25s ease;
 }
+.home-btn img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 18px #ffd86b);
+}
+.home-btn img:active {
+  transform: scale(0.95);
+}
+/* grid notebook page */
 .bobo-bg-page {
-  width: 70%;
+  width: 65%;
   height: 76%;
-  position: absolute;
+
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2;
 
-  background-image: url(../assets/images/Bobo-page/BOBO-BG\ PAGE.jpg);
+  background-image: url(../assets/images/Bobo-page/grid-bobo.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,35 +71,92 @@ body {
   border-radius: 15px;
   outline: 2px solid var(--pink);
 }
-.pin {
-  position: absolute0;
+/* element styling*/
+.bobo-pin {
+  position: absolute;
   width: 60px;
-  height: 60px;
-  background: red;
-  top: 20px;
-  left: 20px;
+  height: 70px;
+
+  top: -25px;
+  left: -3px;
 }
 .standing-bobo {
   position: absolute;
-  width: 220px;
-  height: 400px;
-  background: blue;
-  bottom: 0;
-  left: -160px;
+
+  width: 240px;
+  height: 420px;
+  bottom: 65px;
+  left: 120px;
+
+  z-index: 1;
 }
-.keychain {
+.bobo-keychain {
   position: absolute;
-  width: 180px;
-  height: 180px;
-  background: green;
-  top: 20px;
-  left: 420px;
+  width: 250px;
+  height: 250px;
+
+  transform: translateY(-35px);
+  right: 230px;
 }
-.sticker1 {
+
+/* content inside grid page*/
+.bobo-info {
   position: absolute;
-  width: 180px;
-  height: 180px;
-  background: purple;
-  top: 20px;
-  right: 30px;
+  top: 30px;
+  left: 75px;
+
+  width: 1100px;
+  height: 600px;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  padding-right: 15px;
+
+  font-family: var(--body-font);
+
+  /* typography*/
+  font-size: 24px;
+  line-height: 1.5;
+}
+/* scrollbar styling*/
+.bobo-info::-webkit-scrollbar {
+  width: 10px;
+}
+.bobo-info::-webkit-scrollbar-track {
+  background: transparent;
+}
+.bobo-info::-webkit-scrollbar-thumb {
+  background: #ff93b4;
+  border-radius: 20px;
+}
+.bobo-info::-webkit-scrollbar-thumb:hover {
+  background: #c74d78;
+}
+/* heading & para*/
+.intro,
+.about,
+.pov {
+  margin-bottom: 30px;
+}
+
+.intro {
+  font-size: 30px;
+}
+.about h3 {
+  color: var(--pink);
+  font-size: 27px;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+.pov h3 {
+  color: var(--pink);
+  font-size: 27px;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.pov p {
+  margin-bottom: 20px;
+  text-align: justify;
 }

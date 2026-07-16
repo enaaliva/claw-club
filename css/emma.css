@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Halimum";
+  src: url("../assets/fonts/halimun.regular.otf");
+}
+:root {
+  --cream: #f2e6b1;
+  --pink: #dd6590;
+  --black: #000000;
+  --heading-font: "Halimum";
+  --body-font: "Crafty Girls", cursive;
+}
+/* bg style */
+body {
+  height: 100vh;
+  overflow: hidden;
+
+  background-image: url("../assets/images/background/soft-pink.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* home button*/
+.home-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+
+  z-index: 100;
+}
+.home-btn img {
+  width: 130px;
+  display: block;
+  transition: all 0.25s ease;
+}
+.home-btn img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 18px #ffd86b);
+}
+.home-btn img:active {
+  transform: scale(0.95);
+}
+/* page */
+.emma-page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.emma-bg-content {
+  width: 70%;
+  height: 76%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-image: url(../assets/images/Emma-page/EMMA-BG-PAGE.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clip {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+
+  transform: translateX(-50%);
+  width: 120px;
+  z-index: 5;
+}
+.page-content {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
+.garden {
+  position: absolute;
+  top: 150px;
+  right: 40px;
+  width: 170px;
+}
+.foodie {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  width: 150px;
+}
+.gc {
+  position: absolute;
+  top: 60px;
+  right: 230px;
+  width: 230px;
+  height: 190px;
+}
+.angel {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 180px;
+}
+.profile-pic {
+  position: absolute;
+  top: 50px;
+  left: 52px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  outline: 2px solid #f89ebd;
+}
+/* text sytle */
+.intro {
+  position: absolute;
+  top: 80px;
+  left: 280px;
+  font-size: 25px;
+}
+.intro p {
+  line-height: 1.45;
+}
+
+.note {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  font-family: var(--heading-font);
+  font-size: 23px;
+  color: var(--pink);
+}
+.about {
+  position: absolute;
+  top: 270px;
+  left: 60px;
+  display: flex;
+  align-items: flex-start;
+}
+.pov {
+  position: absolute;
+  top: 411px;
+  left: 60px;
+  display: flex;
+  align-items: flex-start;
+}
+.about h3,
+.pov h3 {
+  width: 140px;
+  margin-right: 15px;
+  white-space: nowrap;
+  color: var(--pink);
+  font-size: 25px;
+}
+.about p,
+.pov p {
+  position: absolute;
+  left: 150px;
+  top: 0;
+  width: 1000px;
+  line-height: 1.6;
+  font-size: 20px;
+}

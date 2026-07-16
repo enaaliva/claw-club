@@ -1,8 +1,9 @@
+/* main content */
 body {
   height: 100vh;
   overflow: hidden;
   font-family: var(--body-font);
-  background-image: url("../assets/images/background/bg-home.jpg");
+  background-image: url("../assets/images/background/bggg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,11 +20,11 @@ nav ul {
 nav a {
   text-decoration: none;
   font-size: 2rem;
-  color: var(--cream);
+  color: var(--pink);
   transition: color 0.3s ease;
 }
 nav a:hover {
-  color: var(--pink);
+  color: var(--cream);
 }
 .paw img {
   width: 50px;
@@ -47,7 +48,7 @@ nav a:hover {
   font-family: var(--heading-font);
   color: var(--cream);
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 55px;
   margin-bottom: 50px;
 }
 .hero-content {
@@ -67,8 +68,8 @@ nav a:hover {
 
 .left-note p {
   position: absolute;
-  top: 45%;
-  left: 20%;
+  top: 50%;
+  left: 13%;
   transform: translate(-50%, -50%);
   width: 150px;
   text-align: center;
@@ -76,7 +77,7 @@ nav a:hover {
   transition: 0.3s;
 }
 .left-note img {
-  width: 100%;
+  width: 86%;
   display: block;
   transform: rotate(-5deg);
   transition: 0.3s;
@@ -119,7 +120,7 @@ nav a:hover {
   transition: transform 0.3s ease;
 }
 .cat-card img:hover {
-  transform: translateY(-8px) scale(1.03);
+  transform: translateY(-8px) scale(1.05);
 }
 .minnu {
   transform: translate(-20px, -2px);
