@@ -14,7 +14,7 @@ body {
   height: 100vh;
   overflow: hidden;
 
-  background-image: url("../assets/images/background/bg-all-pink.png");
+  background-image: url("../assets/images/background/grey\ aesthetic.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@ body {
   background-repeat: no-repeat;
 
   border-radius: 15px;
-  outline: 2px solid var(--pink);
+  outline: 2px solid grey;
 }
 /* element styling*/
 .bobo-pin {
@@ -127,11 +127,11 @@ body {
   background: transparent;
 }
 .bobo-info::-webkit-scrollbar-thumb {
-  background: #ff93b4;
+  background: #ffc5d6;
   border-radius: 20px;
 }
 .bobo-info::-webkit-scrollbar-thumb:hover {
-  background: #c74d78;
+  background: #ad8f99;
 }
 /* heading & para*/
 .intro,

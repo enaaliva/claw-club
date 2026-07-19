@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Halimum";
+  src: url("../assets/fonts/halimun.regular.otf");
+}
+:root {
+  --cream: #f2e6b1;
+  --pink: #dd6590;
+  --black: #000000;
+  --heading-font: "Halimum";
+  --body-font: "Crafty Girls", cursive;
+}
+/* bg style */
+body {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+
+  background-image: url("../assets/images/background/orangee.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* layout */
+.louis-page {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.louis-bg-content {
+  width: 70%;
+  height: 76%;
+
+  position: relative;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-image: url(../assets/images/Louis-page/l-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.page-content {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
+/* images */
+.clip {
+  position: absolute;
+  top: -3px;
+  left: 50%;
+
+  transform: translateX(-50%);
+  width: 140px;
+  z-index: 5;
+}
+.book {
+  position: absolute;
+  top: 690px;
+  right: 80px;
+  width: 150px;
+  flex-shrink: 0;
+}
+.cute {
+  position: absolute;
+  top: 120px;
+  right: 230px;
+  width: 150px;
+  height: 140px;
+}
+.profile-pic {
+  position: absolute;
+  top: 58px;
+  left: 52px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  outline: 2px solid #f8ce9e;
+}
+.photocard {
+  position: absolute;
+  right: 70px;
+  top: 50%;
+  width: 350px;
+  transform: translateY(-50%) rotate(10deg);
+  z-index: 2;
+  filter: drop-shadow(0 0 18px #cc8f0c);
+}
+.photocard:hover {
+  filter: drop-shadow(0 0 18px #cc520c);
+}
+.rain {
+  width: 220px;
+  height: 200px;
+  margin-top: -60px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  float: right;
+}
+/* text */
+.intro {
+  position: absolute;
+  top: 140px;
+  left: 280px;
+  font-size: 28px;
+}
+.intro p {
+  line-height: 1.45;
+}
+
+.note {
+  width: 100%;
+  text-align: center;
+  margin-top: 9px;
+  position: absolute;
+  font-family: var(--heading-font);
+  font-size: 25px;
+  color: rgb(182, 135, 47);
+}
+/* scroll */
+.louis-scroll {
+  position: absolute;
+
+  top: 290px;
+  left: 60px;
+  width: 88%;
+  height: 380px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.louis-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.louis-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.louis-scroll::-webkit-scrollbar-thumb {
+  background: #dca25d;
+  border-radius: 50px;
+}
+
+.louis-scroll::-webkit-scrollbar-thumb:hover {
+  background: #bf8340;
+}
+.louis-scroll h3 {
+  margin-bottom: 12px;
+  font-size: 1.8rem;
+  color: #bf8340;
+}
+
+.louis-scroll p {
+  line-height: 1.75;
+  font-size: 24px;
+}
+/* home button*/
+.home-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+
+  z-index: 100;
+}
+.home-btn img {
+  width: 130px;
+  display: block;
+  transition: all 0.25s ease;
+}
+.home-btn img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 18px #ffd86b);
+}
+.home-btn img:active {
+  transform: scale(0.95);
+}
+/* sections */
+.about {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 65px;
+}
+.fav-thing,
+.arrive,
+.sick,
+.emma,
+.bye,
+.letter {
+  margin-bottom: 65px;
+}
+
+.about-content {
+  flex: 1;
+}
+.about-content,
+.fav-content,
+.arrive-content,
+.sick-content,
+.sis,
+.bye-content,
+.letter-content {
+  max-width: 96%;
+}

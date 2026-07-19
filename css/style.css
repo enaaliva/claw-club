@@ -122,6 +122,7 @@ body {
 .random-cats img {
   width: 290px;
   display: block;
+  transform: rotate(6deg);
   transition: 0.3s;
 }
 .random-cats:hover img {
