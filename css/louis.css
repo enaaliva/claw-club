@@ -59,7 +59,7 @@ body {
 }
 .book {
   position: absolute;
-  top: 690px;
+  top: 738px;
   right: 80px;
   width: 150px;
   flex-shrink: 0;
@@ -87,7 +87,7 @@ body {
   width: 350px;
   transform: translateY(-50%) rotate(10deg);
   z-index: 2;
-  filter: drop-shadow(0 0 18px #cc8f0c);
+  filter: drop-shadow(0 0 10px #cc8f0c);
 }
 .photocard:hover {
   filter: drop-shadow(0 0 18px #cc520c);
@@ -97,7 +97,7 @@ body {
   height: 200px;
   margin-top: -60px;
   margin-bottom: 15px;
-  margin-left: 20px;
+  margin-left: 60px;
   float: right;
 }
 /* text */
@@ -207,4 +207,7 @@ body {
 .bye-content,
 .letter-content {
   max-width: 96%;
+}
+h3 {
+  font-family: var(--heading-font);
 }

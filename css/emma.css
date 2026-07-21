@@ -46,8 +46,8 @@ body {
   position: relative;
 }
 .emma-bg-content {
-  width: 70%;
-  height: 76%;
+  width: 72%;
+  height: 80%;
 
   position: absolute;
   top: 50%;
@@ -73,12 +73,6 @@ body {
   height: 100%;
 
   position: relative;
-}
-.garden {
-  position: absolute;
-  top: 150px;
-  right: 40px;
-  width: 170px;
 }
 .foodie {
   position: absolute;
@@ -112,7 +106,7 @@ body {
 .intro {
   position: absolute;
   top: 80px;
-  left: 280px;
+  left: 288px;
   font-size: 25px;
 }
 .intro p {
@@ -148,12 +142,13 @@ body {
   margin-right: 15px;
   white-space: nowrap;
   color: var(--pink);
+  font-family: var(--heading-font);
   font-size: 25px;
 }
 .about p,
 .pov p {
   position: absolute;
-  left: 150px;
+  left: 228px;
   top: 0;
   width: 1000px;
   line-height: 1.6;

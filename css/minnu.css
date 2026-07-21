@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Halimum";
+  src: url("../assets/fonts/halimun.regular.otf");
+}
+:root {
+  --cream: #f2e6b1;
+  --pink: #dd6590;
+  --black: #000000;
+  --heading-font: "Halimum";
+  --body-font: "Crafty Girls", cursive;
+}
+/*bg content*/
+body {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+
+  background-image: url("../assets/images/background/brown\ aesthetic.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.minnu-page {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+/* notebook style*/
+.notebook {
+  width: 76%;
+  height: 98%;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-image: url(../assets/images/m-page/MINNU-BG-PAGE_upscaled.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.page-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* polaroid content */
+.left-side {
+  position: absolute;
+  top: 190px;
+  left: 60px;
+  width: 340px;
+}
+.polaroid {
+  width: 100%;
+  display: block;
+}
+.profile {
+  margin-top: -75px;
+  padding-left: 18px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(73, 20, 20);
+  line-height: 1.35;
+}
+.profile p:first-child {
+  margin-bottom: 3px;
+}
+.profile p {
+  margin: 0;
+}
+/* images */
+.food-sticker {
+  position: absolute;
+  right: 110px;
+  top: 220px;
+  width: 140px;
+  transform: rotate(10deg);
+  transition: 0.35s ease;
+}
+.food-sticker:hover {
+  transform: scale(1.1);
+}
+.girl-sad {
+  position: absolute;
+  left: 230px;
+  bottom: 100px;
+  width: 160px;
+}
+.cry-cat {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  width: 130px;
+  border-radius: 50%;
+  outline: 2px solid black;
+}
+.flower {
+  position: absolute;
+  left: 20px;
+  bottom: -25px;
+  width: 440px;
+  display: block;
+  transition: 0.35s ease;
+}
+.flower:hover {
+  transform: rotate(-8deg);
+  transition: 0.3s;
+  filter: drop-shadow(0 0 28px #503e3e);
+}
+/* btn style */
+.home-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+
+  z-index: 100;
+}
+.home-btn img {
+  width: 130px;
+  display: block;
+  transition: all 0.25s ease;
+}
+.home-btn img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 18px #ffd86b);
+}
+.home-btn img:active {
+  transform: scale(0.95);
+}
+/* page content */
+.about {
+  position: absolute;
+  top: 220px;
+  left: 440px;
+  width: 720px;
+  font-size: 21px;
+}
+.pov {
+  position: absolute;
+  top: 420px;
+  left: 440px;
+  width: 890px;
+  font-size: 21px;
+}
+.section h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.section p {
+  margin: 0;
+  line-height: 1.7;
+}
+h3 {
+  color: #611b1b;
+  font-family: var(--heading-font);
+}
+.signature {
+  position: absolute;
+  bottom: 40px;
+  right: 180px;
+  width: 440px;
+  color: #611b1b;
+  font-size: 23px;
+  text-align: right;
+}

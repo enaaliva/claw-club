@@ -148,11 +148,13 @@ body {
   font-size: 27px;
   font-weight: normal;
   margin-bottom: 8px;
+  font-family: var(--heading-font);
 }
 .pov h3 {
   color: var(--pink);
   font-size: 27px;
   font-weight: normal;
+  font-family: var(--heading-font);
   margin-bottom: 8px;
 }
 
