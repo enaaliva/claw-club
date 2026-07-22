@@ -46,11 +46,11 @@ body {
   position: relative;
 }
 .emma-bg-content {
-  width: 72%;
-  height: 80%;
+  width: 73%;
+  height: 84%;
 
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -61,11 +61,11 @@ body {
 }
 .clip {
   position: absolute;
-  top: -10px;
+  top: -6px;
   left: 50%;
 
   transform: translateX(-50%);
-  width: 120px;
+  width: 100px;
   z-index: 5;
 }
 .page-content {

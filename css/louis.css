@@ -15,7 +15,7 @@ body {
   overflow: hidden;
   margin: 0;
 
-  background-image: url("../assets/images/background/orangee.png");
+  background-image: url("../assets/images/background/lll.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,12 +27,12 @@ body {
   position: relative;
 }
 .louis-bg-content {
-  width: 70%;
-  height: 76%;
+  width: 73%;
+  height: 84%;
 
   position: relative;
   z-index: 1;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -50,11 +50,11 @@ body {
 /* images */
 .clip {
   position: absolute;
-  top: -3px;
+  top: -10px;
   left: 50%;
 
   transform: translateX(-50%);
-  width: 140px;
+  width: 130px;
   z-index: 5;
 }
 .book {

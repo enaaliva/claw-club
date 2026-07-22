@@ -54,8 +54,8 @@ body {
 }
 /* grid notebook page */
 .bobo-bg-page {
-  width: 65%;
-  height: 76%;
+  width: 68%;
+  height: 84%;
 
   position: relative;
   top: 50%;
@@ -63,13 +63,10 @@ body {
   transform: translate(-50%, -50%);
   z-index: 2;
 
-  background-image: url(../assets/images/Bobo-page/grid-bobo.png);
+  background-image: url(../assets/images/Louis-page/l-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  border-radius: 15px;
-  outline: 2px solid grey;
 }
 /* element styling*/
 .bobo-pin {
@@ -79,6 +76,15 @@ body {
 
   top: -25px;
   left: -3px;
+}
+
+.bobo-pin2 {
+  position: absolute;
+  width: 60px;
+  height: 70px;
+
+  top: -25px;
+  right: -3px;
 }
 .standing-bobo {
   position: absolute;
@@ -105,7 +111,7 @@ body {
   top: 30px;
   left: 75px;
 
-  width: 1100px;
+  width: 1140px;
   height: 600px;
 
   overflow-x: hidden;
