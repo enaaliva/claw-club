@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Halimum";
+  src: url("../assets/fonts/halimun.regular.otf");
+}
+:root {
+  --cream: #f2e6b1;
+  --pink: #dd6590;
+  --black: #000000;
+  --heading-font: "Halimum";
+  --body-font: "Crafty Girls", cursive;
+}
+/* bg style */
+body {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+
+  background-image: url("../assets/images/background/gbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* notebook */
+.notebook {
+  width: 78%;
+  height: 90%;
+
+  position: absolute;
+  z-index: 2;
+  top: 50px;
+  left: 2px;
+
+  background-image: url(../assets/images/icons/gbgp.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  outline: 5px solid #80967e;
+}
+/* tabs */
+.tabs {
+  position: absolute;
+  right: 358px;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  z-index: 1;
+}
+.tab img {
+  width: 110px;
+  height: 140px;
+
+  display: block;
+}
+.tab.active {
+  transform: translateX(-15px);
+}
+/* home button*/
+.home-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+
+  z-index: 100;
+}
+.home-btn img {
+  width: 130px;
+  display: block;
+  transition: all 0.25s ease;
+}
+.home-btn img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 18px #ffd86b);
+}
+.home-btn img:active {
+  transform: scale(0.95);
+}
